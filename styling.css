@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: url(wp.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cont
+{
+    position: relative;
+    width: 27rem;
+    height: 30rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+.cont:hover
+{
+
+}
+
+h1
+{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0px 0px 30px black;
+}
+.box
+{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.box input
+{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+.box label
+{
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: white;
+    transition: 1s;
+    text-shadow: 0px 0px 30px black;
+}
+
+input:focus ~ label
+{
+    top: -5px;
+}
+input:valid ~ label
+{
+    top: -5px;
+}
+.forget
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    margin: -10px 0 15px;
+    text-shadow: 0px 0px 30px black;
+}
+
+.check
+{
+    margin-right: 5px;
+    margin-top: 2px;
+    text-transform: none;
+}
+
+.anc
+{
+    text-decoration: none;
+    color: white;
+}
+.anc:hover
+{
+    text-decoration: underline;
+}
+
+button
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #fff;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #073254;
+    color: white;
+}
+
+p a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+p
+{
+    font-size: 1.2em;
+    margin: 10px 0 10px;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0 20px;
+    text-shadow: 0px 0px 20px black;
+}
+
+p a:hover
+{
+    text-decoration: underline;
+}
